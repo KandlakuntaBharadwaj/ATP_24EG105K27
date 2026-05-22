@@ -11,17 +11,17 @@ This week is dedicated to modern frontend development. The focus shifts from sta
 
 
 ### Specific Assignments Breakdown:
-- **`Employee/`**: A frontend application project designed to manage and display employee data.
-- **`user-app/`**: A distinct frontend application focused on user management and interaction.
-- **`user-app-2/`**: Another iteration, variation, or advanced version of a user management application, potentially exploring different state management or routing techniques.
+- **`employeeAppQues1/`**: A frontend application project designed to manage and display employeeAppQues1 data.
+- **`userAppQues2/`**: A distinct frontend application focused on user management and interaction.
+- **`userAppTwoQues3/`**: Another iteration, variation, or advanced version of a user management application, potentially exploring different state management or routing techniques.
 
 ## How to Run Applications
 Each folder in this week's assignments is a standalone Node.js-based frontend project. You will need to start them individually.
 
-For any given application (e.g., `user-app`):
+For any given application (e.g., `userAppQues2`):
 1. Open your terminal and navigate into the specific project directory:
    ```bash
-   cd user-app
+   cd userAppQues2
    ```
 2. Install the necessary project dependencies:
    ```bash

@@ -11,12 +11,12 @@ This week's assignments are designed to introduce the core building blocks of th
 
 
 ### Specific Assignments Breakdown:
-- **`webpage1.html`**, **`webpage2.html`**, **`webpage3.html`**: A series of HTML files demonstrating progressive complexity in web page structuring, including headings, paragraphs, lists, and potentially forms or media.
-- **`style.css`**: A shared cascading stylesheet that dictates the visual presentation (colors, typography, margins) of the corresponding HTML web pages.
+- **`webpageQues1.html`**, **`webpageQues2.html`**, **`webpageQues3.html`**: A series of HTML files demonstrating progressive complexity in web page structuring, including headings, paragraphs, lists, and potentially forms or media.
+- **`styleQues4.css`**: A shared cascading stylesheet that dictates the visual presentation (colors, typography, margins) of the corresponding HTML web pages.
 
 ## How to View
 Since these are static web pages, no server is required to view them.
 
 1. Navigate to the `week-4` directory on your computer.
-2. Double-click on any of the HTML files (e.g., `webpage1.html`) to open it directly in your default web browser.
+2. Double-click on any of the HTML files (e.g., `webpageQues1.html`) to open it directly in your default web browser.
 3. Alternatively, you can use a tool like "Live Server" in VS Code for a better development experience.

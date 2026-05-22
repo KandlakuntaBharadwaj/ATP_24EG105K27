@@ -10,9 +10,9 @@ This week's assignments are designed to establish a strong foundation in JavaScr
 - Develop core logic and problem-solving skills in programming.
 
 ### Specific Assignments Breakdown:
-- **`Asmt1-3.js`**: Write a script to calculate and print the sum of all elements in a numeric array.
-- **`Asmt1-4.js`**: Implement logic to find and return the smallest element within a numeric array.
-- **`Asmt1-5.js` to `Asmt1-8.js`**: A progressive series of fundamental exercises covering varied array operations, boolean logic, and iterative control flow in JavaScript.
+- **`sumOfMarksQues1.js`**: Write a script to calculate and print the sum of all elements in a numeric array.
+- **`smallestElementQues2.js`**: Implement logic to find and return the smallest element within a numeric array.
+- **`biggestOfThreeQues3.js` to `employeeOperationsQues6.js`**: A progressive series of fundamental exercises covering varied array operations, boolean logic, and iterative control flow in JavaScript.
 
 ## How to Run
 Ensure you have [Node.js](https://nodejs.org/) installed on your system. You can execute any of these JavaScript files directly from your terminal.
@@ -21,5 +21,5 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your system. You can
 2. Navigate to the `week-1` directory.
 3. Run the specific file using the `node` command:
    ```bash
-   node Asmt1-3.js
+   node sumOfMarksQues1.js
    ```

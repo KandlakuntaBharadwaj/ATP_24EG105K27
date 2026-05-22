@@ -11,7 +11,7 @@ These assignments build upon foundational knowledge to cover more advanced JavaS
 
 
 ### Specific Assignments Breakdown:
-- **`Asmt2-1.js` to `Asmt2-4.js`**: A collection of advanced JavaScript programming tasks that test your ability to structure code modularly, process nested data
+- **`arrayMethodsQues1.js` to `spreadOperatorsQues4.js`**: A collection of advanced JavaScript programming tasks that test your ability to structure code modularly, process nested data, and utilize modern ES6+ features effectively.
 - **`week 2-5/`**: A sub-directory containing the capstone or advanced assignments for the later part of the week, often combining multiple concepts learned previously.
 
 ## How to Run
@@ -21,5 +21,5 @@ Ensure you have [Node.js](https://nodejs.org/) installed on your system.
 2. Navigate to the `week-2` directory.
 3. Run the specific file using the `node` command:
    ```bash
-   node Asmt2-1.js
+   node arrayMethodsQues1.js
    ```

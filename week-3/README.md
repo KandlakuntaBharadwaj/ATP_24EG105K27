@@ -13,9 +13,9 @@ The primary focus of this week is on building robust backend services. By comple
 
 
 ### Specific Assignments Breakdown:
-- **`productserver.js`**: The main entry point for the server application. Responsible for bootstrapping the Express app and starting the server on a specified port.
-- **`productAPI.js`**: Contains the route definitions and controller logic (GET, POST, PUT, DELETE) for managing product resources.
-- **`product.http`**: An HTTP request configuration file used to manually test and verify the API endpoints (e.g., using the VS Code REST Client extension).
+- **`productServerQues3.js`**: The main entry point for the server application. Responsible for bootstrapping the Express app and starting the server on a specified port.
+- **`productApiQues2.js`**: Contains the route definitions and controller logic (GET, POST, PUT, DELETE) for managing product resources.
+- **`productHttpQues1.http`**: An HTTP request configuration file used to manually test and verify the API endpoints (e.g., using the VS Code REST Client extension).
 - **`package.json` & `package-lock.json`**: Dependency management files containing project scripts and required modules like `express`.
 
 ## How to Run
@@ -26,6 +26,6 @@ The primary focus of this week is on building robust backend services. By comple
    ```
 3. Start the Express server:
    ```bash
-   node productserver.js
+   node productServerQues3.js
    ```
-4. Use the `product.http` file or a tool like Postman to test the running API.
+4. Use the `productHttpQues1.http` file or a tool like Postman to test the running API.

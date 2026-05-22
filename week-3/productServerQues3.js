@@ -1,6 +1,6 @@
 import exp from "express";
 import mongoose from "mongoose";
-import { productApp } from "./productAPI.js";
+import { productApp } from "./productApiQues2.js";
 
 const app = exp();
 

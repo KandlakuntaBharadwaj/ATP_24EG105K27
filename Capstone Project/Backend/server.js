@@ -16,7 +16,14 @@ const app = exp();
 // CORS
 app.use(
   cors({
-    origin: ["http://localhost:5173"],
+    origin: function (origin, callback) {
+      // Allow localhost, the old Vercel URL, and any new Render deployment URLs
+      if (!origin || origin.startsWith("http://localhost") || origin.includes("vercel.app") || origin.endsWith(".onrender.com")) {
+        callback(null, true);
+      } else {
+        callback(new Error("Not allowed by CORS"));
+      }
+    },
     credentials: true,
   })
 );
@@ -62,11 +69,7 @@ app.use((err, req, res, next) => {
   if (err.code === 11000) {
     return res.status(409).json({ error: "Duplicate field value" });
   }
-  res.cookie("token", token, {
-  httpOnly: true,
-  secure: false, // local development
-  sameSite: "lax",
-});
+
 
   res.status(500).json({ error: "Server error" });
 });

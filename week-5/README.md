@@ -11,13 +11,13 @@ These assignments explore more advanced HTML and CSS concepts, specifically focu
 
 
 ### Specific Assignments Breakdown:
-- **`table1.html` & `table1.css`**: Basic structural table layouts and their associated styling.
-- **`table2.html` & `table2.css`**: Intermediate table structures, possibly introducing spanning (`colspan`, `rowspan`).
-- **`table3.html` & `table3.css`**: Advanced table layouts with more intricate styling requirements.
-- **`e3.html` & `e3.css`, `e4.html` & `e4.css`**: Additional standalone styling exercises focusing on specific layout or design challenges.
+- **`tableQues5.html` & `tableStyleQues6.css`**: Basic structural table layouts and their associated styling.
+- **`tableAdvancedQues7.html` & `tableAdvancedStyleQues8.css`**: Intermediate table structures, possibly introducing spanning (`colspan`, `rowspan`).
+- **`tablformQues1.html` & `tablformStyleQues2.css`**: Advanced table layouts with more intricate styling requirements.
+- **`formQues1.html` & `formStyleQues2.css`, `formAdvancedQues3.html` & `formAdvancedStyleQues4.css`**: Additional standalone styling exercises focusing on specific layout or design challenges.
 - **`tailwind/`**: A dedicated directory for exercises that practice applying utility classes using the Tailwind CSS framework.
 
 ## How to View
 1. Navigate to the `week-5` directory.
-2. Open any of the standard HTML files (`table1.html`, `e3.html`, etc.) directly in your web browser.
+2. Open any of the standard HTML files (`tableQues5.html`, `formQues1.html`, etc.) directly in your web browser.
 3. For the `tailwind/` exercises, refer to any specific instructions within that folder, as it may require a build step depending on the setup.
