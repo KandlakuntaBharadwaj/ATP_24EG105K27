@@ -1,6 +1,6 @@
 //Assignment on spreadoperators and unpacking
 
-// 💡 Exercise 1: Copy & Extend an Array
+// Exercise 1: Copy & Extend an Array
 
 //                         Goal: Learn array copying with spread
                         
@@ -18,11 +18,11 @@
 //                               -> Print both arrays
                         
                         
-//                         ✅ Expected Output
+//                         Expected Output
 //                               ["apple", "banana"]
 //                               ["apple", "banana", "orange"]
                         
-//                         👉 Original array should NOT change.
+//                         Original array should NOT change.
 
 
 
@@ -31,7 +31,7 @@
 
 
 
-// 💡 Exercise 2: Update User Object
+// Exercise 2: Update User Object
                         
 //                         Goal: Learn object cloning & adding new property
                         
@@ -56,11 +56,11 @@
                         
                         
                         
-//                         ✅ Expected Output
+//                          Expected Output
 //                               { name: "Ravi", city: "Hyderabad" }
 //                               { name: "Ravi", city: "Hyderabad", age: 25 }
                         
-//                         👉 Original object should remain unchanged.
+//                         Original object should remain unchanged.
 
 
 // Exercise 1: Copy & Extend an Array
@@ -97,7 +97,7 @@ console.log(updatedUser);
 
 // Hands-On 1: Shallow Copy (Controlled Mutation Use Case)
 // -------------------------------------------------------
-// 🧪 Given Data:
+//  Given Data:
 //               const user = {
 //                 id: 101,
 //                 name: "Ravi",
@@ -107,7 +107,7 @@ console.log(updatedUser);
 //                 }
 //               };
 
-// 🎯 Task
+// Task
 //     1. Create a shallow copy of user
 //     2. Change:
 //           i. name in the copied object
@@ -162,7 +162,7 @@ console.log("Copied User:", copiedUser);
 //                   ]
 //                 };
 
-// 🎯 Task:
+// Task:
 //       1. Create a deep copy of order
 //       2. Modify in copied object:
 //             i. customer.address.city
